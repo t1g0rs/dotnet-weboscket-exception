@@ -70,7 +70,8 @@ public static class HostFactory
         }
         catch (ObjectDisposedException e)
         {
-            // Should never be reached
+
+            // Should never be reached 
             Debug.Assert(false);
         }
     }
